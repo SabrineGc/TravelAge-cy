@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://cdn.dribbble.com/users/1732368/screenshots/16451791/how-travel-website-development-can-help-an-online-travel-agency.gif");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.card {
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin-bottom: 80%;
+    margin-left: 38%;
+    margin-right: 50%;
+  }
+
+  .container {
+    height: 20rem;
+    width: 30rem;
+    padding: 10px;
+    background: aquamarine;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 3px 3px #943fa5, -1em 0 .4em #943fa5 !important ;
+  }
