@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="hotel.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movenpick Resort & Marine Spa</title>
 </head>
 <body>
-    <h1>Movenpick Resort & Marine Spa *****</h1>
-    <img id="img1" src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-1988-20230303-055026.jpg">
-    <img id="img2" src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-1988-20210728-090613.jpg">
-    <img id="img3" src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-1988-20210728-090752.jpg">
-    <img id="img4" src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-1988-20210728-090813.jpg">
-    <div>
-        <h2>Situation</h2>
-        <p>Situé à la Perle du Sahel, Sousse, la ville la plus visée et la plus animée de la côte Est de la Tunisie, L’hôtel Movenpick Resort et marine spa est un prestigieux hôtel de cinq étoiles sur front de mer, entouré des plus belles discothèques de la ville et à 10 minutes du golf du port El Kantaoui. Mariage entre l’urbain et la nature, un véritable havre de détente, l'hôtel Movenpick Resort et Marine spa Sousse offre à ses hôtes un séjour mémorable.</p>
-        <h2>Services & équipements</h2>
-        <p>Climatisation
-            Sèche-cheveux
-            Téléphone avec ligne directe
-            Bar
-            Equipements pour handicapés
-            Restaurant
-            Plage
-            Coffre fort
-            Centre d'affaires
-            Café
-            Centre de congrès
-            Centre de remise en forme
-            Salle de réunion
-            Piscine
-            Ascenseur
-            Télévision
-            Chaînes câblées
-            Boutique de cadeaux
-            Chambre avec connexion PC
-            Change
-        </p>
+    <h1>Movenpick Resort & Marine Spa </h1>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-1988-20230303-055026.jpg">
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-1988-20210728-090613.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-1988-20210728-090752.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-1988-20210728-090813.jpg" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    
         
-        
-        
-    </div>
-
+            <h2><a href="https://goo.gl/maps/jhjTyiufMG4TWfN6A">Localisation</a></h2>
+            <button type="submit" onclick="document.location='reservation.html'">Book The Rooms</button>
+    <script src="hotel.js"></script>
+   
 </body>
 </html>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="hotel.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,44 @@
 </head>
 <body>
     <h1>holiday beach hotel</h1>
-    <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-5522-20230126-031727.jpg">
-    <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-5522-20230126-031802.jpg">
-    <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-5522-20230126-031832.jpg">
-    <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-5522-20230126-031923.jpg">
-    <div>
-        <h2>Localisation</h2>
-        <p>
-            <a href="https://goo.gl/maps/EdQcKctq8gQfxXMs9">Localisation</a>
-        </p>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-5522-20230126-031727.jpg" style="width:80%">
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-5522-20230126-031802.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-5522-20230126-031832.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="https://fwk.resabo.com/cr.fwk/images/hotels/Hotel-5522-20230126-031923.jpg" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    
         
-        
-    </div>
+            <h2> <a href="https://goo.gl/maps/EdQcKctq8gQfxXMs9">Localisation</a></h2>
+            <button type="submit" onclick="document.location='reservation.html'">Book The Rooms</button>
+        <script src="hotel.js"> </script>
     
 </body>
 </html>

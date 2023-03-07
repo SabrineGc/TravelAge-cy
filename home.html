@@ -2,26 +2,32 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="home.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>world travel</title>
+    <title>Bahbahni: World travel</title>
 </head>
 <!-- jhjkfeln -->
 <body>
-    <h1>welcome to agency</h1>
+    <div class="topnav">
+     
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <h1>Welcome to our Agency</h1>
     <div class="card">
         <div class="container">
-        <input id="inp" type="text" placeholder="enter your user name">
-        <input id="password" type="text" placeholder="enter your password">
-        <input id="mail" type="text" placeholder="enter your adress mail">
-        <input id="num" type="text" placeholder="enter your phone number">
-        <button id="bsisa" >Sign in </button>
+        userName:<input id="inp" type="text" placeholder="enter your user name">
+        password:<input id="password" type="password" placeholder="enter your password">
+        Show Password<input type="checkbox" onclick="myFunction()">
+        e-mail<input id="mail" type="text" placeholder="enter your adress mail">
+        number<input id="num" type="text" placeholder="enter your phone number">
+        <button id="bsisa" onclick="document.location='main.html'" >Sign up </button>
     </div>
     </div>
    
-    
-
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
